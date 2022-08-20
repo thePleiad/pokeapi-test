@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.c2eb884a.css",
-    "main.js": "/static/js/main.ea173efb.js",
-    "index.html": "/index.html",
-    "main.c2eb884a.css.map": "/static/css/main.c2eb884a.css.map",
-    "main.ea173efb.js.map": "/static/js/main.ea173efb.js.map"
+    "main.css": "/pokeapi-test/static/css/main.c2eb884a.css",
+    "main.js": "/pokeapi-test/static/js/main.ea173efb.js",
+    "index.html": "/pokeapi-test/index.html",
+    "main.c2eb884a.css.map": "/pokeapi-test/static/css/main.c2eb884a.css.map",
+    "main.ea173efb.js.map": "/pokeapi-test/static/js/main.ea173efb.js.map"
   },
   "entrypoints": [
     "static/css/main.c2eb884a.css",
