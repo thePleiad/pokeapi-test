@@ -5,8 +5,8 @@ const PokemonDetails = ({ currentPokemon }) => {
   return (
     <div className='chosen'>
 
-      <img src={currentPokemon?.sprites?.other?.['official-artwork']?.front_default} alt="" />
-      <h3>{currentPokemon?.name} #{currentPokemon?.id}</h3>
+      <img src={currentPokemon?.sprites?.other?.['official-artwork']?.front_default || currentPokemon?.sprites?.front_default} alt="" />
+      <h3>{currentPokemon?.name} #{currentPokemon?.order}</h3>
 
       <div className='pokedata'>
 
