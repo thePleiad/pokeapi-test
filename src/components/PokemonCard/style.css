@@ -1,0 +1,164 @@
+.card {
+    /* background-color: wheat; */
+    max-width: 200px;
+    min-width: 150px;
+    max-height: 250px;
+    flex-basis: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px solid black;
+    text-transform: capitalize;
+}
+
+
+
+.card:hover {
+    cursor: pointer;
+}
+
+.card img {
+    background-color: whitesmoke;
+    margin: 1rem 0;
+    border: 1px solid black;
+}
+
+.card h4 {
+    margin-bottom: 1rem;
+    max-width: 100%;
+    height: auto;
+    
+}
+
+.card--types {
+    max-width: 100%;
+    min-width: 90%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    /* background-color: #409efc; */
+    justify-content: space-around;
+    align-items: center;
+    gap: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.card--types p {
+    text-align: center;
+    padding: 0.1rem 0.2rem;
+    min-width: 40%;
+    max-width: 60%;
+    background-color: blue;
+    border-radius: 5px;
+}
+
+.card--types p[about='electric'] {
+    background-color: #ffc500;
+}
+.card--types p[about='fighting'] {
+    background-color: #a3523d;
+}
+.card--types p[about='flying'] {
+    background-color: #9daff5;
+}
+.card--types p[about='normal'] {
+    background-color: #ada595;
+}
+.card--types p[about='poison'] {
+    background-color: #b45da4;
+}
+.card--types p[about='ground'] {
+    background-color: #bc9b50;
+}
+.card--types p[about='rock'] {
+    background-color: #bca45f;
+}
+.card--types p[about='bug'] {
+    background-color: #adbb33;
+}
+.card--types p[about='ghost'] {
+    background-color: #6365b3;
+}
+.card--types p[about='steel'] {
+    background-color: #adadc5;
+}
+.card--types p[about='fire'] {
+    background-color: #f4533a;
+}
+.card--types p[about='water'] {
+    background-color: #409efc;
+}
+.card--types p[about='grass'] {
+    background-color: #7ecc59;
+}
+.card--types p[about='psychic'] {
+    background-color: #fd75a5;
+}
+.card--types p[about='ice'] {
+    background-color: #60cee5;
+}
+.card--types p[about='dragon'] {
+    background-color: #7866db;
+}
+.card--types p[about='dark'] {
+    background-color: #725a4a;
+}
+.card--types p[about='fairy'] {
+    background-color: #f6b7f6;
+}
+
+@media (max-width: 1068px) {
+    .card {
+        max-width: 25%;
+    }
+    .card--types p {
+        font-size: 0.95rem;
+    }
+}
+@media (max-width: 831px) {
+    .card {
+        min-width: 120px;
+    }
+    .card img{
+        max-width: 70%;
+    }
+    .card--types p {
+        font-size: 0.9rem;
+    }
+    .card--types {
+        margin-bottom: 0.3rem;
+    }
+    .card h4 {
+        font-size: 1rem;
+        margin-bottom: 0.3rem;
+    }
+}
+
+@media (max-width: 740px) {
+    .card img {
+        max-width: 70%;
+        margin: 0.5rem 0;
+    }
+}
+
+@media (max-width: 668px) {
+    .card--types p {
+        font-size: 0.8rem;
+    }
+    .card h4 {
+        font-size: 0.8rem;
+        margin-bottom: 0.3rem;
+    }
+    .card img {
+        margin: 0.5rem 0;
+    }
+    .card {
+        min-width: 100px;
+    }
+}
+
+@media (max-width: 340px) {
+    .card {
+        min-width: 90px;
+    }
+}
