@@ -1,4 +1,4 @@
-# pokeapi-test
+# Pokeapi-T
 
 ## Demo: https://thepleiad.github.io/pokeapi-test/
 
